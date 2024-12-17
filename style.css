@@ -1,19 +1,23 @@
-body{font-family: "Roboto", sans-serif;
+body{font-family: "Optima";
     font-style: normal;
-    background-image: url('https://pbs.twimg.com/media/Fk2FoX_XEAIcdlF?format=jpg&name=large');
+    background-image: url('./assets/oppaper.jpg');
     background-repeat: no-repeat;
-    background-size: contain 100%;
+    background-size: auto 100%;
     background-position: center;
     background-attachment: fixed;
     vertical-align: top;
 }
 td{
-    text-align: justify;
+    text-align: center;
     vertical-align: top;
 }
 tr.head{
-    background-color: #CF2B24;
-    color: white;
+    background-color: #CDCECC;
+    color: #931F24;
+    font-family: "Optima", sans-serif;
+    font-style: bold;
+    font-variant: small-caps;
+    font-size:large;
 }
 tr.foundational{
     background-color: black;
@@ -23,10 +27,17 @@ table{
     margin-left: auto;
     margin-right: auto;
 }
+table.table{
+    width: 75%;
+    background-color: #CDCECC;
+}
 .rarrow{
     color: #CF2B24;
 }
 table.main{
     width: 75%;
     background-color: white;
+}
+tr:nth-child(even) {
+    background-color: #A4A6A3;
 }
