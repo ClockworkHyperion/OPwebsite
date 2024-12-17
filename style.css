@@ -1,4 +1,9 @@
-body{font-family: "Optima";
+@font-face {
+    font-family: "Optima Nova Pro Medium";
+    src: url(./assets/OPTIMANOVALTPROMEDIUM.OTF);
+  }
+
+body{font-family: "Optima Nova Pro Medium", sans-serif;
     font-style: normal;
     background-image: url('./assets/oppaper.jpg');
     background-repeat: no-repeat;
@@ -14,8 +19,8 @@ td{
 tr.head{
     background-color: #CDCECC;
     color: #931F24;
-    font-family: "Optima", sans-serif;
-    font-style: bold;
+    font-family: "Optima Nova Pro Medium", sans-serif;
+    font-style: normal;
     font-variant: small-caps;
     font-size:large;
 }
